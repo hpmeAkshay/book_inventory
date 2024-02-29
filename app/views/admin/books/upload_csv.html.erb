@@ -1,0 +1,6 @@
+<!-- app/views/admin/books/upload_csv.html.erb -->
+
+<%= form_tag import_csv_admin_books_path, multipart: true do %>
+  <%= file_field_tag :csv %>
+  <%= submit_tag 'Import CSV' %>
+<% end %>

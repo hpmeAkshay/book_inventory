@@ -1,0 +1,5 @@
+<!-- app/views/admin/sales/_total_amount.html.erb -->
+
+<div class="total-amount">
+  <h3>Total Amount: <%= number_to_currency(total_amount, unit: '₹', separator: '.', delimiter: ',', format: '%u %n') %></h3>
+</div>
